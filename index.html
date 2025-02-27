@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Personnel - Joël TCHINDA</title>
+  <!-- Inclusion de la bibliothèque EmailJS -->
+  <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+  <!-- boxicons -->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <!-- custom css -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header class="active">
+    <a href="#" class="logo">Joël TCHINDA</a>
+    <i class="bx bx-menu" id="menu-icon"></i>
+    <nav>
+      <a href="#" class="active">Accueil</a>
+      <a href="#">Services</a>
+      <a href="#">Résumé</a>
+      <a href="#">Portfolio</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Background Bars -->
+  <div class="bars-box active">
+    <div class="bar" style="--i:3;"></div>
+    <div class="bar" style="--i:2;"></div>
+    <div class="bar" style="--i:1;"></div>
+  </div>
+
+  <!-- Section Accueil -->
+  <section class="home active">
+    <div class="home-detail">
+      <h1>Joël TCHINDA</h1>
+      <h2>Étudiant en Ingénierie Informatique &amp; Passionné de Development et de Data</h2>
+      <p>
+        Actuellement étudiant à l'École d'Ingénieurs 3iL, je suis motivé et doté d'un solide background en développement informatique,
+        data science et intelligence artificielle. Je recherche un <strong>stage de 4 à 5 mois</strong> et une <strong>alternance de 12 mois</strong> afin de mettre en pratique mes compétences sur des projets concrets.
+      </p>
+      <div class="btn-sci">
+        <a href="cv.pdf" class="btn" download>Télécharger CV</a>
+        <div class="sci">
+          <a href="https://www.linkedin.com/in/jo%C3%ABl-tchinda-b12311226/" target="_blank" rel="noopener noreferrer"><i class='bx bxl-linkedin-square'></i></a>
+          <a href="https://github.com/TCHINDAJOEL" target="_blank" rel="noopener noreferrer"><i class='bx bxl-github'></i></a>
+          <a href="https://youtube.com/@tchinda_joel" target="_blank" rel="noopener noreferrer"><i class='bx bxl-youtube'></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="home-img">
+      <div class="img-box">
+        <div class="img-item">
+          <img src="images/home.png" alt="Photo de profil">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section Services -->
+  <section class="services">
+    <h2 class="heading">Mes <span>Services</span></h2>
+    <div class="services-container">
+        <!-- Service 1: Développement Web & Applications -->
+        <div class="services-box">
+            <div class="icon">
+                <i class='bx bx-code'></i>
+                <a href="#"><i class='bx bx-arrow-back'></i></a>
+            </div>
+            <h3>Développement Web &amp; Applications</h3>
+            <p>
+                Conception et développement de solutions web et logicielles répondant aux besoins des entreprises. 
+                Utilisation de technologies modernes pour garantir performance, sécurité et évolutivité.
+            </p>
+        </div>
+
+        <!-- Service 2: Data Science & Analyse -->
+        <div class="services-box">
+            <div class="icon">
+                <i class='bx bx-bar-chart-alt-2'></i>
+                <a href="#"><i class='bx bx-arrow-back'></i></a>
+            </div>
+            <h3>Data Science &amp; Analyse</h3>
+            <p>
+                Exploitation et analyse de données pour extraire des insights stratégiques. 
+                Mise en place d’outils de visualisation et de Business Intelligence pour faciliter la prise de décision.
+            </p>
+        </div>
+
+        <!-- Service 3: Intelligence Artificielle -->
+        <div class="services-box">
+            <div class="icon">
+                <i class='bx bx-brain'></i>
+                <a href="#"><i class='bx bx-arrow-back'></i></a>
+            </div>
+            <h3>Intelligence Artificielle</h3>
+            <p>
+                Développement d’algorithmes et de solutions d’intelligence artificielle pour automatiser et optimiser vos processus. 
+                Application du machine learning et de l’analyse prédictive à divers enjeux métiers.
+            </p>
+        </div>
+
+        <!-- Service 4: Réalité Augmentée -->
+        <div class="services-box">
+            <div class="icon">
+                <i class='bx bx-glasses-alt'></i>
+                <a href="#"><i class='bx bx-arrow-back'></i></a>
+            </div>
+            <h3>Réalité Augmentée</h3>
+            <p>
+                Création d’expériences immersives et interactives en intégrant des contenus digitaux dans le monde réel. 
+                Développement d’applications AR pour enrichir l’expérience utilisateur.
+            </p>
+        </div>
+
+        <!-- Service 5: Big Data & BI -->
+        <div class="services-box">
+            <div class="icon">
+                <i class='bx bx-data'></i>
+                <a href="#"><i class='bx bx-arrow-back'></i></a>
+            </div>
+            <h3>Big Data &amp; BI</h3>
+            <p>
+                Gestion et analyse de grands volumes de données pour transformer l’information brute en connaissances exploitables. 
+                Création de dashboards interactifs et d’outils d’analyse pour soutenir vos décisions stratégiques.
+            </p>
+        </div>
+    </div>
+</section>
+
+  <!-- Section Résumé -->
+  <section class="resume">
+    <div class="resume-container">
+      <div class="resume-box">
+        <h2>Pourquoi Me Recruter ?</h2>
+        <p>
+          Rigoureux, autonome et passionné, je mets un point d’honneur à adapter mes compétences aux défis actuels
+          du numérique. Mon expérience en analyse de données et développement informatique me permet de contribuer efficacement à vos projets.
+        </p>
+        <button class="resume-btn active">Expérience</button>
+        <button class="resume-btn">Formation</button>
+        <button class="resume-btn">Compétences</button>
+        <button class="resume-btn">À Propos</button>
+      </div>
+
+      <div class="resume-box">
+        <!-- Expérience -->
+        <div class="resume-detail Experience active">
+          <h2 class="heading">Mon <span>Expérience</span></h2>
+          <p class="desc">Stage en Data Analyst Junior chez Boston Sarl (mai 2023 – août 2023) : extraction de données via SQL et analyses avec Excel &amp; Power BI.</p>
+          <div class="resume-list">
+            <div class="resume-item">
+              <p class="year">Mai - Août 2023</p>
+              <h3>Stagiaire Data Analyst Junior</h3>
+              <p class="company">Boston Sarl</p>
+              <p>Utilisation de requêtes SQL pour extraire des données, et réalisation de tableaux de bord interactifs.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Formation -->
+        <div class="resume-detail education">
+          <h2 class="heading">Ma <span>Formation</span></h2>
+          <p class="desc">Actuellement étudiant à l'École d'Ingénieurs 3iL, j'ai également suivi une Classe Préparatoire (MPSI) chez Prépavogt.</p>
+          <div class="resume-list">
+            <div class="resume-item">
+              <p class="year">2023 – Présent</p>
+              <h3>École d'Ingénieurs 3iL</h3>
+              <p class="company">Limoges, France</p>
+            </div>
+            <div class="resume-item">
+              <p class="year">2021 – 2023</p>
+              <h3>Classe Préparatoire (MPSI)</h3>
+              <p class="company">Prépavogt</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Compétences -->
+        <div class="resume-detail skills">
+            <h2 class="heading">Mes <span>Compétences</span></h2>
+            <p class="desc">
+              Voici un aperçu détaillé de mes compétences techniques, acquises au fil de mes formations et expériences professionnelles.
+            </p>
+            <div class="resume-list">
+              <!-- Langages de Programmation -->
+              <div class="resume-item">
+                <i class='bx bxl-python'></i>
+                <span>Python (Numpy, TensorFlow, Keras)</span>
+              </div>
+              <div class="resume-item">
+                <i class='bx bxl-java'></i>
+                <span>Java (JDBC)</span>
+              </div>
+              <div class="resume-item">
+                <i class='bx bx-code-alt'></i>
+                <span>C</span>
+              </div>
+              <div class="resume-item">
+                <!-- Pour R, Boxicons ne propose pas d'icône spécifique, on utilise ici une icône générique -->
+                <i class='bx bx-chart'></i>
+                <span>R</span>
+              </div>
+              
+              <!-- Développement Web -->
+              <div class="resume-item">
+                <i class='bx bxl-html5'></i>
+                <span>HTML</span>
+              </div>
+              <div class="resume-item">
+                <i class='bx bxl-css3'></i>
+                <span>CSS</span>
+              </div>
+              <div class="resume-item">
+                <i class='bx bxl-javascript'></i>
+                <span>JavaScript</span>
+              </div>
+              <div class="resume-item">
+                <i class='bx bxl-php'></i>
+                <span>PHP</span>
+              </div>
+              
+              <!-- Frameworks & Bibliothèques -->
+              <div class="resume-item">
+                <i class='bx bxl-react'></i>
+                <span>React</span>
+              </div>
+              <div class="resume-item">
+                <!-- Si l'icône Unity n'est pas disponible, on peut utiliser une icône de jeu -->
+                <i class='bx bx-game'></i>
+                <span>Unity (C#)</span>
+              </div>
+              
+              <!-- Bases de Données -->
+              <div class="resume-item">
+                <i class='bx bxl-postgresql' ></i>
+                <span>SQL (MySQL, PostgreSQL)</span>
+              </div>
+              <div class="resume-item">
+                <i class='bx bxl-mongodb'></i>
+                <span>MongoDB</span>
+              </div>
+              
+              <!-- Visualisation & Business Intelligence -->
+              <div class="resume-item">
+                <i class='bx bxs-bar-chart-alt-2'></i>
+                <span>Visualisation : Power BI, Tableau, Matplotlib, Seaborn</span>
+              </div>
+              
+              <!-- Big Data -->
+              <div class="resume-item">
+                <i class='bx bx-data'></i>
+                <span>Big Data : Spark, Hadoop, Hive, Kafka, DBT</span>
+              </div>
+              
+              <!-- Outils & Méthodologies -->
+              <div class="resume-item">
+                <i class='bx bxl-docker'></i>
+                <span>Docker</span>
+              </div>
+              <div class="resume-item">
+                <i class='bx bxl-git'></i>
+                <span>Git</span>
+              </div>
+              <div class="resume-item">
+                <i class='bx bx-cog'></i>
+                <span>Méthodes Agiles (Scrum)</span>
+              </div>
+              
+              <!-- Systèmes et Virtualisation -->
+              <div class="resume-item">
+                <i class='bx bx-windows'></i>
+                <span>Linux</span>
+              </div>
+              <div class="resume-item">
+                <i class='bx bx-box'></i>
+                <span>VirtualBox</span>
+              </div>
+              <div class="resume-item">
+                <i class='bx bx-terminal'></i>
+                <span>Shell Scripting</span>
+              </div>
+              
+              <!-- Outils de Développement -->
+              <div class="resume-item">
+                <i class='bx bxl-codepen' ></i>
+                <span>Postman</span>
+              </div>
+            </div>
+          </div>
+          
+        <!-- À Propos -->
+        <div class="resume-detail about">
+          <h2 class="heading">À <span>Propos de Moi</span></h2>
+          <p class="desc">
+            Je m'appelle Joël TCHINDA, j'ai 20 ans et je vis en France. Je suis bilingue en français et anglais. Curieux, rigoureux et autonome, je suis toujours à la recherche de nouveaux défis dans le domaine du numérique.
+          </p>
+          <div class="resume-list">
+            <div class="resume-item">
+              <p>Nom <span>Joël TCHINDA</span></p>
+            </div>
+            <div class="resume-item">
+              <p>Âge <span>20 ans</span></p>
+            </div>
+            <div class="resume-item">
+              <p>Email <span>tchindaj@3il.fr</span></p>
+            </div>
+            <div class="resume-item">
+              <p>Téléphone <span>07 44 82 17 80</span></p>
+            </div>
+            <div class="resume-item">
+              <p>Langues <span>Français, Anglais</span></p>
+            </div>
+            <div class="resume-item">
+              <p>Certifications <span>Power BI Analyst, SQL, Data Science, ANSSI Sécurité numérique</span></p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Section Portfolio -->
+  <section class="portfolio">
+    <h2 class="heading">My <span>Portfolio</span></h2>
+    <div class="portfolio-container">
+        <div class="portfolio-box">
+            <!-- Project 01: Tableau de Bord Power BI -->
+            <div class="portfolio-detail active">
+                <p class="numb">01</p>
+                <h3>Tableau de Bord Power BI</h3>
+                <p>Conception d’un tableau de bord interactif pour analyser les performances financières du Crédit Breton, en utilisant Power BI et Excel.</p>
+                <div class="tech">
+                    <p>Power BI, Excel</p>
+                </div>
+                <div class="live-github">
+                    <a href="https://www.youtube.com/watch?v=Xi_EvasWIdQ&t=1s" target="_blank"><i class='bx bx-left-arrow-alt'></i><span>Live Project</span></a>
+                    <a href="https://github.com/TCHINDAJOEL" target="_blank"><i class='bx bxl-github'></i><span>Github Repository</span></a>
+                </div>
+            </div>
+
+            <!-- Project 02: Agent Intelligent pour Puissance 4 -->
+            <div class="portfolio-detail">
+                <p class="numb">02</p>
+                <h3>Agent Intelligent pour Puissance 4</h3>
+                <p>Développement d’un agent intelligent utilisant l’algorithme minimax pour jouer et gagner au Puissance 4.</p>
+                <div class="tech">
+                    <p>Java, Python, Algorithme Minimax</p>
+                </div>
+                <div class="live-github">
+                    <a href="https://github.com/TCHINDAJOEL" target="_blank"><i class='bx bx-left-arrow-alt'></i><span>Live Project</span></a>
+                    <a href="https://github.com/TCHINDAJOEL" target="_blank"><i class='bx bxl-github'></i><span>Github Repository</span></a>
+                </div>
+            </div>
+
+            <!-- Project 03: Traitement d'Image avec IA -->
+            <div class="portfolio-detail">
+                <p class="numb">03</p>
+                <h3>Traitement d'Image avec IA</h3>
+                <p>Mise en place d’un système de détection d’anomalies sur des images pour aider au diagnostic médical, grâce à l’IA.</p>
+                <div class="tech">
+                    <p>Python, TensorFlow, Keras, OpenCV</p>
+                </div>
+                <div class="live-github">
+                    <a href="https://github.com/TCHINDAJOEL/Medical-VisionAI" target="_blank"><i class='bx bx-left-arrow-alt'></i><span>Live Project</span></a>
+                    <a href="https://github.com/TCHINDAJOEL/Medical-VisionAI" target="_blank"><i class='bx bxl-github'></i><span>Github Repository</span></a>
+                </div>
+            </div>
+
+            <!-- Project 04: TERAPACE2 -->
+            <div class="portfolio-detail">
+                <p class="numb">04</p>
+                <h3>TERAPACE2</h3>
+                <p>Projet de réalité augmentée dédié à la rééducation des enfants atteints de paralysie cérébrale.</p>
+                <div class="tech">
+                    <p>Unity, C#, AR</p>
+                </div>
+                <div class="live-github">
+                    <a href="#" target="_blank"><i class='bx bx-left-arrow-alt'></i><span>Live Project</span></a>
+                    <a href="#" target="_blank"><i class='bx bxl-github'></i><span>Github Repository</span></a>
+                </div>
+            </div>
+
+            <!-- Project 05: Jeu de Quiz en Java -->
+            <div class="portfolio-detail">
+                <p class="numb">05</p>
+                <h3>Jeu de Quiz en Java</h3>
+                <p>Création d’une application Java interactive de quiz, avec gestion des scores et une interface utilisateur conviviale.</p>
+                <div class="tech">
+                    <p>Java, JavaFX</p>
+                </div>
+                <div class="live-github">
+                    <a href="#" target="_blank"><i class='bx bx-left-arrow-alt'></i><span>Live Project</span></a>
+                    <a href="#" target="_blank"><i class='bx bxl-github'></i><span>Github Repository</span></a>
+                </div>
+            </div>
+
+            <!-- Project 06: Application Web de Mini Jeux avec Chat Intégré -->
+            <div class="portfolio-detail">
+                <p class="numb">06</p>
+                <h3>Application Web de Mini Jeux avec Chat Intégré</h3>
+                <p>Développement d’une application web proposant plusieurs mini jeux avec un chat multijoueur, basée sur la stack MERN.</p>
+                <div class="tech">
+                    <p>HTML, CSS, JavaScript, MERN</p>
+                </div>
+                <div class="live-github">
+                    <a href="#" target="_blank"><i class='bx bx-left-arrow-alt'></i><span>Live Project</span></a>
+                    <a href="#" target="_blank"><i class='bx bxl-github'></i><span>Github Repository</span></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="portfolio-box">
+            <div class="portfolio-carousel">
+                <div class="img-slide">
+                    <div class="img-item">
+                        <!-- Vidéo YouTube intégrée -->
+                        <iframe class="img-item" src="https://youtube.com/embed/Xi_EvasWIdQ?si" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="img-item">
+                        <img src="images/portfolio2.jpg" alt="Portfolio Image 2">
+                    </div>
+                    <div class="img-item">
+                        <img src="images/portfolio3.jpg" alt="Portfolio Image 3">
+                    </div>
+                    <div class="img-item">
+                        <img src="images/portfolio4.jpg" alt="Portfolio Image 4">
+                    </div>
+                    <div class="img-item">
+                        <img src="images/portfolio5.jpg" alt="Portfolio Image 5">
+                    </div>
+                    <div class="img-item">
+                        <img src="images/portfolio6.jpg" alt="Portfolio Image 6">
+                    </div>
+                </div>
+            </div>
+
+            <div class="navigation">
+                <button class="arrow-left disabled"><i class='bx bx-chevron-left'></i></button>
+                <button class="arrow-right"><i class='bx bx-chevron-right'></i></button>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+  <!-- Section Contact -->
+  <section class="contact">
+    <div class="contact-container">
+      <div class="contact-box">
+        <h2>Travaillons Ensemble</h2>
+        <p class="desc">
+          Vous avez un projet ou souhaitez en savoir plus sur mon profil ? N’hésitez pas à me contacter.
+        </p>
+        <div class="contact-detail">
+          <i class='bx bxs-phone-call'></i>
+          <div class="detail">
+            <p>Téléphone</p>
+            <p>(+33) 07 44 82 17 80</p>
+          </div>
+        </div>
+        <div class="contact-detail">
+          <i class='bx bxs-envelope'></i>
+          <div class="detail">
+            <p>Email</p>
+            <p>tchindaj@3il.fr</p>
+          </div>
+        </div>
+        <div class="contact-detail">
+          <i class='bx bxs-graduation'></i>
+          <div class="detail">
+            <p>Formation</p>
+            <p>Ingénierie Informatique</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-box">
+        <form action="" method="post">
+          <h2 class="heading">Contactez-<span>Moi</span></h2>
+          <div class="field-box">
+            <input type="text" placeholder="Nom et Prénom" required>
+            <input type="email" placeholder="Adresse Email" required>
+            <input type="text" placeholder="Numéro de Téléphone" required>
+            <input type="text" placeholder="Objet" required>
+            <textarea placeholder="Votre Message" required></textarea>
+          </div>
+          <button type="submit" class="btn">Envoyer</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Script JS Personnalisé -->
+  <script src="js/script.js"></script>
+</body>
+
+</html>
